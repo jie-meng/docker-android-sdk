@@ -20,4 +20,4 @@ For example, tag `24.4.1-25-25.0.1` means with Android SDK 24.4.1, Android 7.1.1
 
 - Jenkins -> Build executors -> New Node -> { name: android-agent-1, of executors: 1, Remote directory: /opt/jenkins, Label: android, Usage: Only build jobs with label expressions matching this node, Launch method: Launch agent via Java Web Start, Availability: Keep this agent online as much as possible }
 
-- start agent command `docker run -d --rm --name android-agent-1 jmengxy/android-sdk:jenkins-3.14-3859397-26-26.0.2  http://(ip):8080 (secret) android-agent-1`
+- start agent command `docker run -d --rm --name android-agent-1 jmengxy/android-sdk:jenkins-3.15-3859397-26-26.0.2  http://(ip):8080 (secret) android-agent-1`
